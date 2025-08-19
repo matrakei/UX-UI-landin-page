@@ -1,0 +1,40 @@
+.footer {
+    background: #e5e7eb;
+    padding: 2rem 0;
+    text-align: center;
+  }
+  
+  .footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+  
+  .countdown-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #111827;
+    margin-bottom: 0.5rem;
+    letter-spacing: 0.1em;
+  }
+  
+  .countdown-labels {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    color: #6b7280;
+    font-size: 0.9rem;
+    font-weight: 500;
+  }
+  
+  @media (max-width: 768px) {
+    .countdown-title {
+      font-size: 1.5rem;
+    }
+  
+    .countdown-labels {
+      gap: 2rem;
+      font-size: 0.8rem;
+    }
+  }
+  
